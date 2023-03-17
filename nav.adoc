@@ -1,0 +1,2 @@
+* xref:install:Readme.adoc[Getting started]
+** xref:install:about.adoc[Manual Installation]

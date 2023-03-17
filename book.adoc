@@ -1,0 +1,8 @@
+include::Readme.adoc[]
+
+include::introduction/motivation.adoc[]
+
+include::introduction/about.adoc[]
+
+include::introduction/architecture.adoc[]
+

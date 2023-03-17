@@ -1,0 +1,8 @@
+name: Juice Shop
+title: "Juice shop Documentation"
+version: test
+asciidoc:
+  attributes:
+    page-lang: en@
+nav:
+- nav.adoc
