@@ -5,4 +5,4 @@ asciidoc:
   attributes:
     page-lang: en@
 nav:
-- nav.adoc
+- modules/ROOT/nav.adoc
