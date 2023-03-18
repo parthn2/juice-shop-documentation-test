@@ -40,4 +40,4 @@ accounts.
 The following diagram shows the high-level communication paths between
 the client, server and data layers:
 
-image::img/architecture-diagram.png[Architecture overview diagram]
+image::architecture-diagram.png[Architecture overview diagram]
