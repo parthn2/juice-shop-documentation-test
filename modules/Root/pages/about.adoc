@@ -1,1 +1,1 @@
-image::img/back.jpg[Back Cover]
+image::/img/back.jpg[Back Cover]
