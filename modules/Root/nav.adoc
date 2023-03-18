@@ -1,2 +1,1 @@
 * xref:readme.adoc[]
-* xref:about.adoc[]
