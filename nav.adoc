@@ -1,2 +1,2 @@
-* xref:Readme.adoc[]
-** xref:introduction/about.adoc[]
+* xref:readme.adoc[]
+* xref:about.adoc[]

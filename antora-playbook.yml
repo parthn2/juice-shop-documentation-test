@@ -1,10 +1,9 @@
 site:
   title: Juice Shop Docs
-  start_page: Readme.adoc 
 content:
   sources: 
-  - url: git@github.com:parthn2/juice-shop-documentation-test.git
-    branches: HEAD
+  - url: https://github.com/parthn2/juice-shop-documentation-test.git
+    branches: main
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
