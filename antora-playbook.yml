@@ -2,8 +2,8 @@ site:
   title: Juice Shop Docs
 content:
   sources: 
-  - url: https://github.com/parthn2/juice-shop-documentation-test.git
-    branches: main
+  - url: ./
+    start_path: 
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
