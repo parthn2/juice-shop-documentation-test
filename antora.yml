@@ -6,5 +6,3 @@ asciidoc:
     page-lang: en@
 nav:
 - modules/Root/nav.adoc
-# - modules/Why_Juice_Shop/nav.adoc
-# - modules/Architecture/nav.adoc
