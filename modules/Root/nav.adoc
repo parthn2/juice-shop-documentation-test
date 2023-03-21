@@ -1,4 +1,4 @@
 * Preface
-** xref:about.adoc[]
-** xref:motivation.adoc[]
-** xref: motivation.adoc[]
+** xref: preface/about.adoc[]
+** xref: preface/motivation.adoc[]
+** xref: preface/motivation.adoc[]
