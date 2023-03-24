@@ -3,13 +3,13 @@ Author Name
 :doctype: book
 :imagesdir: modules/Root/assets/images
 
-= Preface
+== Preface
 
 include::modules/Root/pages/introduction/readme.adoc[Introduction]
 include::modules/Root/pages/introduction/motivation.adoc[Why OWASP Juice Shop exists]
 include::modules/Root/pages/introduction/architecture.adoc[Architecture overview]
 
-= Part I - Hacking preparations
+== Part I - Hacking preparations
 
 include::modules/Root/pages/part1/README.adoc[Hacking preparations]
 include::modules/Root/pages/part1/running.adoc[Running OWASP Juice Shop]
@@ -20,7 +20,7 @@ include::modules/Root/pages/part1/happy-path.adoc[Walking the "happy path"]
 include::modules/Root/pages/part1/customization.adoc[Customization]
 include::modules/Root/pages/part1/ctf.adoc[Hosting a CTF event]
 
-= Part II - Challenge hunting
+== Part II - Challenge hunting
 
 include::modules/Root/pages/part2/README.adoc[Challenge hunting]
 include::modules/Root/pages/part2/score-board.adoc[Finding the Score Board]
@@ -40,7 +40,7 @@ include::modules/Root/pages/part2/broken-anti-automation.adoc[Broken Anti-Automa
 include::modules/Root/pages/part2/cryptographic-issues.adoc[Cryptographic Issues]
 include::modules/Root/pages/part2/miscellaneous.adoc[Miscellaneous]
 
-= Part III - Getting involved
+== Part III - Getting involved
 
 include::modules/Root/pages/part3/README.adoc[Getting involved]
 include::modules/Root/pages/part3/feedback.adoc[Provide feedback]
@@ -50,7 +50,7 @@ include::modules/Root/pages/part3/translation.adoc[Help with translation]
 include::modules/Root/pages/part3/tutorials.adoc[Hacking Instructor tutorial scripts]
 include::modules/Root/pages/part3/donations.adoc[Donations]
 
-= Appendix
+== Appendix
 
 include::modules/Root/pages/appendix/solutions.adoc[Challenge solutions]
 include::modules/Root/pages/appendix/trainers.adoc[Trainer's guide]
@@ -62,6 +62,6 @@ include::modules/Root/pages/appendix/monitoring.adoc[Monitoring]
 include::modules/Root/pages/appendix/chatbot.adoc[Chatbot training data]
 include::modules/Root/pages/appendix/lyrics.adoc[Jingle lyrics]
 
-= Postface
+== Postface
 
 include::modules/Root/pages/introduction/about.adoc[About this book]
