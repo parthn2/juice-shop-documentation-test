@@ -1,4 +1,5 @@
 = Challenge solutions
+include::../_attributes.adoc[]
 
 All URLs in the challenge solutions assume you are running the
 application locally and on the default port http://localhost:3000.
@@ -9,7 +10,7 @@ one possible solution is presented here. This is typically the easiest
 or most obvious one from the author's perspective.
 
 _The challenge solutions found in this release of the companion guide
-are compatible with {{book.juiceShopVersion}} of OWASP Juice Shop._
+are compatible with {juiceShopVersion} of OWASP Juice Shop._
 
 == ⭐ Challenges
 

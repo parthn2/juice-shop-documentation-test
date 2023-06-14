@@ -1,4 +1,5 @@
 = Hacking exercise rules
+include::../_attributes.adoc[]
 
 == ✔️ Recommended hacking tools
 
@@ -268,8 +269,7 @@ https://groups.google.com/a/owasp.org/forum/#!forum/juice-shop-project.
 
 == ❌ Things considered cheating
 
-{% if book.ctf == false %}
-
+ifeval::[{is_ctf} == 0]
 === Reading a solution ( 📕 ) before trying
 
 The xref:../appendix/solutions.adoc[Challenge solutions] appendix is there to
@@ -278,8 +278,7 @@ challenge is solved. Simply going through the entire appendix back to
 back and follow the step-by-step instructions given there for each
 challenge, would deprive you of most of the fun and learning effect of
 the Juice Shop. You have been warned.
-
-{% endif %}
+endif::[]
 
 === Source code
 

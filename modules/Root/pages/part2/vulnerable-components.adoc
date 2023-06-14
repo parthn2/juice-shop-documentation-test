@@ -1,4 +1,5 @@
 = Vulnerable Components
+include::../_attributes.adoc[]
 
 The challenges in this chapter are all about security issues of
 libraries or other 3rd party components the application uses internally.
@@ -165,7 +166,7 @@ dumpster dive the internet to get a hold of the bot's source
 This challenge is about identifying and reporting (via the
 http://localhost:3000/#/contact form) a case of typosquatting that
 successfully sneaked into an older version of the Juice Shop. Luckily,
-it is not in use any more in {{book.juiceShopVersion}}.
+it is not in use any more in {juiceShopVersion}.
 
 * Just like
 <<inform-the-shop-about-a-typosquatting-imposter-that-dug-itself-deep-into-the-frontend,its frontend companion>>

@@ -1,4 +1,5 @@
 = Part II - Challenge hunting
+include::../_attributes.adoc[]
 
 This part of the book can be read from end to end as a _hacking guide_.
 Used in that way you will be walked through various types of web
@@ -13,10 +14,9 @@ their difficulty and in the same order as they appear on the Score
 Board.
 
 _The challenge hints found in this release of the companion guide are
-compatible with {{book.juiceShopVersion}} of OWASP Juice Shop._
+compatible with {juiceShopVersion} of OWASP Juice Shop._
 
-{% if book.ctf %}
-
+ifeval::[{is_ctf} == 0]
 |===
 | Name | Description | Hints
 
@@ -936,7 +936,7 @@ compatible with {{book.juiceShopVersion}} of OWASP Juice Shop._
 | link:../appendix/solutions.md#give-a-devastating-zero-star-feedback-to-the-store[📕]
 |===
 
-== Challenge Solutions
+== Challenge 
 
 In case you are getting frustrated with a particular challenge, you can
 refer to the xref:/appendix/solutions.adoc[Challenge solutions] appendix
@@ -945,4 +945,4 @@ vulnerability. It is highly recommended to use this option only as a
 last resort. You will learn *a lot more* from hacking entirely on your
 own or relying only on the hints in this part of the book.
 
-{% endif %}
+endif::[]

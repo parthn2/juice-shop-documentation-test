@@ -1,4 +1,5 @@
 = Running OWASP Juice Shop
+include::../_attributes.adoc[]
 
 == System requirements
 
@@ -21,7 +22,7 @@ Please note that any additional resources needed by your environment (e.g. Docke
  ** `400 millicpu` CPU
  ** `800 MB` free disk space
 
-🗄️ _If installing <<from-sources,from sources>> without the ` --depth 1`` option, an additional ``700
+🗄️ _If installing <<from-sources,from sources>> without the `--depth 1` option, an additional `700
 MB` free disk space are required for the Git history in both minimum and
 recommended spec._
 
@@ -35,7 +36,7 @@ endeavours.
 
 To run the Juice Shop locally you need to have
 http://nodejs.org/[Node.js] installed on your computer. The Juice Shop
-officially runs on versions {{book.nodeVersions}} of Node.js, closely
+officially runs on versions {nodeVersions} of Node.js, closely
 following the official
 https://github.com/nodejs/LTS[Node.js Long-term Support Release Schedule].
 During development and Continuous Integration (CI) the application is
@@ -43,7 +44,7 @@ automatically tested with these current versions of Node.js. The
 officially recommended version to run Juice Shop is either the most
 recent _Long-term Support (LTS)_ version or the _Current Release_
 version. Therefore Juice Shop recommends Node.js
-{{book.recommendedNodeVersion}} for its own {{book.juiceShopVersion}}
+{recommendedNodeVersion} for its own {juiceShopVersion}
 release.
 
 ==== From sources
@@ -74,7 +75,7 @@ You need to have https://www.docker.com/[Docker] installed to run
 Juice Shop as a container inside it. Following the instructions below
 will download the current stable version (built from `master` branch on
 GitHub) which internally runs the application on the currently
-recommended Node.js version {{book.recommendedNodeVersion}}.
+recommended Node.js version {recommendedNodeVersion}.
 
 . Install https://www.docker.com/[Docker] on your computer.
 . On the command line run `docker pull bkimminich/juice-shop` to
@@ -90,7 +91,7 @@ that you also enable port forwarding from host `127.0.0.1:3000` to
 ==== Supported architectures
 
 The official Docker image is built automatically during CI/CD for
-`linux/amd64` (based on a Node.js {{book.recommendedNodeVersion}} image) as well as `linux/arm64` and `linux/arm/v7` (based on a Node.js 14 image) and both are pushed to DockerHub. The following tagged images are available on DockerHub:
+`linux/amd64` (based on a Node.js {recommendedNodeVersion} image) as well as `linux/arm64` and `linux/arm/v7` (based on a Node.js 14 image) and both are pushed to DockerHub. The following tagged images are available on DockerHub:
 
 * Stable version from `master` branch: `latest` for AMD/ARM64 and `latest-arm` for ARMv7
 * Development version from `develop` branch: `snapshot` for AMD/ARM64 and `snapshot-arm` for ARMv7
@@ -101,7 +102,7 @@ The official Docker image is built automatically during CI/CD for
 Vagrant is an open-source solution for building and maintaining virtual
 software development environments. It creates a Virtualbox VM that will
 launch a Docker container instance of the `latest` Juice Shop image
-{{book.juiceShopVersion}}.
+{juiceShopVersion}.
 
 . Install https://www.vagrantup.com/downloads.html[Vagrant] and
 https://www.virtualbox.org/wiki/Downloads[Virtualbox]

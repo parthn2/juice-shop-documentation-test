@@ -1,4 +1,5 @@
 = Hosting a CTF event
+include::../_attributes.adoc[]
 
 ____
 In computer security, Capture the Flag (CTF) is a computer security
@@ -161,7 +162,7 @@ is a simple command line tool, which will generate a file compatible
 with your chosen CTF framework's data backup format. This can be
 imported to populate its database and generate mirror images of all
 current Juice Shop challenges on the score server. The following
-instructions were written for {{book.juiceShopCtfVersion}} of
+instructions were written for {juiceShopCtfVersion} of
 `juice-shop-ctf-cli`.
 
 To install `juice-shop-ctf-cli` you need to have Node.js 8.x or higher
@@ -186,7 +187,7 @@ image::part1/cli_usage_screenshot.png[juice-shop-ctf CLI in action]
 
 . *CTF framework to generate data for?* Offers a selectable choice
 between the supported CTF frameworks, which for
-{{book.juiceShopCtfVersion}} are
+{juiceShopCtfVersion} are
  ** `CTFd` which is a very well-written and stable piece of Open Source
 Software. This is the default choice.
  ** `FBCTF` from Facebook which is visually more advanced though not as
@@ -318,7 +319,7 @@ juice-shop-ctf --config myconfig.yml --output challenges.out
 
 image::part1/ctfd_logo.png[CTFd logo]
 
-This setup guide assumes that you use CTFd {{book.ctfdVersion}}. To
+This setup guide assumes that you use CTFd {ctfdVersion}. To
 apply the generated `.zip`, follow the steps describing your preferred
 CTFd run-mode below.
 
@@ -326,7 +327,7 @@ CTFd run-mode below.
 
 . Get CTFd with `+git clone https://github.com/CTFd/CTFd.git+`.
 . Run `git checkout tags/<version>` to retrieve version
-{{book.ctfdVersion}}.
+{ctfdVersion}.
 . Perform steps 1 and 3 from
 https://github.com/CTFd/CTFd#install[the CTFd installation instructions].
 . Browse to your CTFd instance UI (by default http://127.0.0.1:4000)
@@ -345,7 +346,7 @@ https://docs.docker.com/compose/install/[Docker host and Docker compose].
 . Follow all steps from
 https://github.com/CTFd/CTFd/wiki/Basic-Deployment[the CTFd Docker setup]
 to install Docker, download the source code, create containers (for
-{{book.ctfdVersion}}) and start them.
+{ctfdVersion}) and start them.
 . After running `docker-compose up` from previous step, you should be
 able to browse to your CTFd instance UI (`<<docker host IP>>:8000` by
 default) and create an admin user and CTF name.
@@ -356,9 +357,9 @@ default) and create an admin user and CTF name.
 
 . Install Docker
 . Run `docker pull ctfd/ctfd:<version>` the retrieve tag
-{{book.ctfdVersion}}
+{ctfdVersion}
 . Execute `docker run --rm -p 8000:8000 ctfd/ctfd:<version>` to run
-{{book.ctfdVersion}}
+{ctfdVersion}
 . Follow the steps 5-8 from the
 <<local-server-setup,Local server setup>> described above
 
@@ -408,7 +409,7 @@ image::part1/rtb_logo.png[RootTheBox logo]
 https://github.com/moloch--/RootTheBox/wiki/Installation[Installation Tutorial]
 or
 https://github.com/moloch--/RootTheBox/wiki/Docker-Deployment[Docker Deployment]
-guide to install RootTheBox version {{book.rtbVersion}}.
+guide to install RootTheBox version {rtbVersion}.
 . Log in with the admin credentials displayed during server start-up.
 . In the _Backup/Restore_ menu select _Import XML_ and select the
 generated `.xml` file.

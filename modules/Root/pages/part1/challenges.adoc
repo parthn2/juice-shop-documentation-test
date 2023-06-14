@@ -1,4 +1,5 @@
 = Challenge tracking
+include::../_attributes.adoc[]
 
 == The Score Board
 
@@ -195,10 +196,9 @@ progress.
 If during restore you see an error message `Version X is incompatible
 with expected version Y` your backup was taken before a semantically
 incompatible format change. The current backup schema version is
-{{book.backupSchemaVersion}}.
+{backupSchemaVersion}.
 
-{% if book.ctf == false %}
-
+ifeval::[{is_ctf} == 0]
 == Hacking Instructor
 
 image::part1/JuicyBot_MedicalMask.png[Juicy Bot the mascot of the Hacking Instructor]
@@ -258,8 +258,7 @@ with all challenges is shown and all filters are enabled. Passing in the
 `NODE_ENV=tutorial` environment variable will activate this mode.
 
 image::part1/tutorial-mode3.png[Locked advanced filters in tutorial mode]
-
-{% endif %}
+endif::[]
 
 == Coding challenges
 

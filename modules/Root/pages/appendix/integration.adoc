@@ -1,4 +1,5 @@
 = Integration
+include::../_attributes.adoc[]
 
 OWASP Juice Shop follows strict conventions for describing challenges.
 These allow you to easily integrate Juice Shop tutorials, hints and
@@ -147,7 +148,7 @@ https://jekyllrb.com/docs/liquid/filters/[Liquid Filters].
 == Challenge solution webhook
 
 Any Juice Shop instance can be configured to call a webhook whenever one
-of its {{book.juiceShopNumberOfChallenges}} hacking challenges is
+of its {juiceShopNumberOfChallenges} hacking challenges is
 solved. To use this feature the following environment variable needs to
 be supplied to the Juice Shop server:
 

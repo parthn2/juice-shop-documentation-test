@@ -1,28 +1,25 @@
 = Introduction
+include::../_attributes.adoc[]
 
 :doctype: book
 
-{% if book.ctf %}
-
+ifeval::[{is_ctf} == 1]
 = Pwning OWASP Juice Shop (CTF Edition)
+endif::[]
 
-{% else %}
-
+ifeval::[{is_ctf} == 0]
 = Pwning OWASP Juice Shop
-
-{% endif %}
+endif::[]
 
 Written by https://twitter.com/bkimminich[Björn Kimminich]
 
-{% if book.ctf %}
-
+ifeval::[{is_ctf} == 1]
 image::cover-ctf.jpg[Front Cover]
+endif::[]
 
-{% else %}
-
+ifeval::[{is_ctf} == 0]
 image::cover.jpg[Front Cover]
-
-{% endif %}
+endif::[]
 
 This is the official companion guide to the *OWASP Juice Shop*
 application. Being a web application with a vast number of intended
@@ -33,7 +30,7 @@ tool for security risks in modern web applications. The OWASP Juice Shop
 is an open-source project hosted by the non-profit
 https://owasp.org[Open Web Application Security Project® (OWASP)] and
 is developed and maintained by volunteers. The content of this book was
-written for {{book.juiceShopVersion}} of OWASP Juice Shop.
+written for {juiceShopVersion} of OWASP Juice Shop.
 
 The book is divided into three parts:
 
@@ -53,13 +50,12 @@ application.
 [discrete]
 === Part III - Getting involved
 
-{% if book.ctf %}
-
+ifeval::[{is_ctf} == 1]
 Part three points you to the social media channels and tells you about
 donation options of the OWASP Juice Shop open source project.
+endif::[]
 
-{% else %}
-
+ifeval::[{is_ctf} == 0]
 Part three shows up various ways to contribute to the OWASP Juice Shop
 open source project.
 
@@ -88,8 +84,7 @@ on the given topic._
 *Official OWASP Juice Shop project homepage:*
 
 * https://owasp-juice.shop
-
-{% endif %}
+endif::[]
 
 '''
 

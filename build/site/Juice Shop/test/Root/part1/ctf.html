@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Hosting a CTF event :: Juice Shop Docs</title>
-    <meta name="generator" content="Antora 3.1.2">
+    <meta name="generator" content="Antora 3.1.4">
     <link rel="stylesheet" href="../../../../_/css/site.css">
     <script>var uiRootPath = '../../../../_'</script>
   </head>
@@ -487,7 +487,7 @@ is a simple command line tool, which will generate a file compatible
 with your chosen CTF framework&#8217;s data backup format. This can be
 imported to populate its database and generate mirror images of all
 current Juice Shop challenges on the score server. The following
-instructions were written for {{book.juiceShopCtfVersion}} of
+instructions were written for v9.1.2 of
 <code>juice-shop-ctf-cli</code>.</p>
 </div>
 <div class="paragraph">
@@ -521,7 +521,7 @@ answers available which you can choose by simply hitting <code>ENTER</code>.</p>
 <li>
 <p><strong>CTF framework to generate data for?</strong> Offers a selectable choice
 between the supported CTF frameworks, which for
-{{book.juiceShopCtfVersion}} are</p>
+v9.1.2 are</p>
 <div class="ulist">
 <ul>
 <li>
@@ -740,7 +740,7 @@ with the <code>--output</code> parameter:</p>
 </div>
 </div>
 <div class="paragraph">
-<p>This setup guide assumes that you use CTFd {{book.ctfdVersion}}. To
+<p>This setup guide assumes that you use CTFd 3.4 or higher. To
 apply the generated <code>.zip</code>, follow the steps describing your preferred
 CTFd run-mode below.</p>
 </div>
@@ -753,7 +753,7 @@ CTFd run-mode below.</p>
 </li>
 <li>
 <p>Run <code>git checkout tags/&lt;version&gt;</code> to retrieve version
-{{book.ctfdVersion}}.</p>
+3.4 or higher.</p>
 </li>
 <li>
 <p>Perform steps 1 and 3 from
@@ -790,7 +790,7 @@ with the Juice Shop challenges.</p>
 <p>Follow all steps from
 <a href="https://github.com/CTFd/CTFd/wiki/Basic-Deployment">the CTFd Docker setup</a>
 to install Docker, download the source code, create containers (for
-{{book.ctfdVersion}}) and start them.</p>
+3.4 or higher) and start them.</p>
 </li>
 <li>
 <p>After running <code>docker-compose up</code> from previous step, you should be
@@ -812,11 +812,11 @@ default) and create an admin user and CTF name.</p>
 </li>
 <li>
 <p>Run <code>docker pull ctfd/ctfd:&lt;version&gt;</code> the retrieve tag
-{{book.ctfdVersion}}</p>
+3.4 or higher</p>
 </li>
 <li>
 <p>Execute <code>docker run --rm -p 8000:8000 ctfd/ctfd:&lt;version&gt;</code> to run
-{{book.ctfdVersion}}</p>
+3.4 or higher</p>
 </li>
 <li>
 <p>Follow the steps 5-8 from the
@@ -921,7 +921,7 @@ cluster and individually assigned to a participant via a load balancer.</p>
 <a href="https://github.com/moloch--/RootTheBox/wiki/Installation">Installation Tutorial</a>
 or
 <a href="https://github.com/moloch--/RootTheBox/wiki/Docker-Deployment">Docker Deployment</a>
-guide to install RootTheBox version {{book.rtbVersion}}.</p>
+guide to install RootTheBox version 3.3 or higher.</p>
 </li>
 <li>
 <p>Log in with the admin credentials displayed during server start-up.</p>

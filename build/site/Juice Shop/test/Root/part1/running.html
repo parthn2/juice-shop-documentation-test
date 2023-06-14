@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Running OWASP Juice Shop :: Juice Shop Docs</title>
-    <meta name="generator" content="Antora 3.1.2">
+    <meta name="generator" content="Antora 3.1.4">
     <link rel="stylesheet" href="../../../../_/css/site.css">
     <script>var uiRootPath = '../../../../_'</script>
   </head>
@@ -329,8 +329,8 @@ process CPU and RAM usage of the official public demo instance running <code>v14
 </ul>
 </div>
 <div class="paragraph">
-<p>🗄️ <em>If installing <a href="#from-sources">from sources</a> without the ` --depth 1<code> option, an additional </code>700
-MB` free disk space are required for the Git history in both minimum and
+<p>🗄️ <em>If installing <a href="#from-sources">from sources</a> without the <code>--depth 1</code> option, an additional <code>700
+MB</code> free disk space are required for the Git history in both minimum and
 recommended spec.</em></p>
 </div>
 </div>
@@ -348,7 +348,7 @@ endeavours.</p>
 <div class="paragraph">
 <p>To run the Juice Shop locally you need to have
 <a href="http://nodejs.org/">Node.js</a> installed on your computer. The Juice Shop
-officially runs on versions {{book.nodeVersions}} of Node.js, closely
+officially runs on versions 14.x, 16.x and 18.x of Node.js, closely
 following the official
 <a href="https://github.com/nodejs/LTS">Node.js Long-term Support Release Schedule</a>.
 During development and Continuous Integration (CI) the application is
@@ -356,7 +356,7 @@ automatically tested with these current versions of Node.js. The
 officially recommended version to run Juice Shop is either the most
 recent <em>Long-term Support (LTS)</em> version or the <em>Current Release</em>
 version. Therefore Juice Shop recommends Node.js
-{{book.recommendedNodeVersion}} for its own {{book.juiceShopVersion}}
+18.x for its own v14.5.0
 release.</p>
 </div>
 <div class="sect3">
@@ -417,7 +417,7 @@ the application</p>
 Juice Shop as a container inside it. Following the instructions below
 will download the current stable version (built from <code>master</code> branch on
 GitHub) which internally runs the application on the currently
-recommended Node.js version {{book.recommendedNodeVersion}}.</p>
+recommended Node.js version 18.x.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -446,7 +446,7 @@ that you also enable port forwarding from host <code>127.0.0.1:3000</code> to
 <h4 id="_supported_architectures"><a class="anchor" href="#_supported_architectures"></a>Supported architectures</h4>
 <div class="paragraph">
 <p>The official Docker image is built automatically during CI/CD for
-<code>linux/amd64</code> (based on a Node.js {{book.recommendedNodeVersion}} image) as well as <code>linux/arm64</code> and <code>linux/arm/v7</code> (based on a Node.js 14 image) and both are pushed to DockerHub. The following tagged images are available on DockerHub:</p>
+<code>linux/amd64</code> (based on a Node.js 18.x image) as well as <code>linux/arm64</code> and <code>linux/arm/v7</code> (based on a Node.js 14 image) and both are pushed to DockerHub. The following tagged images are available on DockerHub:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -469,7 +469,7 @@ that you also enable port forwarding from host <code>127.0.0.1:3000</code> to
 <p>Vagrant is an open-source solution for building and maintaining virtual
 software development environments. It creates a Virtualbox VM that will
 launch a Docker container instance of the <code>latest</code> Juice Shop image
-{{book.juiceShopVersion}}.</p>
+v14.5.0.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">

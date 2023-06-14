@@ -1,4 +1,5 @@
 = Customization
+include::../_attributes.adoc[]
 
 One of the core usage scenarios for OWASP Juice Shop is in employee
 trainings in order to facilitate security awareness. With its not
@@ -429,7 +430,7 @@ Juice Shop.
 | `solved`
 
 | `restrictToTutorialsFirst`
-| Disables all _Score Board_ filter options and hides those of the {{book.juiceShopNumberOfChallenges}} challenges without a tutorial until all challenges with a tutorial have been solved.
+| Disables all _Score Board_ filter options and hides those of the {juiceShopNumberOfChallenges} challenges without a tutorial until all challenges with a tutorial have been solved.
 | `false`
 
 | `overwriteUrlForProductTamperingChallenge`
@@ -907,7 +908,7 @@ the property `application.domain`, the description of the challenges
 _Ephemeral Accountant_, _Forged Signed JWT_ and _Unsigned JWT_ will
 always be shown in English.
 * Configurations (except `default.yml`) do not support translation of
-custom product names and descriptions as of {{book.juiceShopVersion}}.
+custom product names and descriptions as of {juiceShopVersion}.
 * Several
 link:../part1/challenges.md#hacking-instructor[Hacking Instructor]
 scripts depend on product inventory and product reviews that might not

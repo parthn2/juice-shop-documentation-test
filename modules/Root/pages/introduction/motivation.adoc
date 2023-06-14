@@ -1,11 +1,12 @@
 = Why the Juice Shop exists
+include::../_attributes.adoc[]
 
 To the unsuspecting user the Juice Shop just looks like a small online
 shop which sells - _surprise!_ - fruit & vegetable juice and associated
 products. Except for the entirely overrated payment and delivery aspect
 of the e-commerce business, the Juice Shop is fully functional. But this
 is just the tip of the iceberg. The Juice Shop contains
-{{book.juiceShopNumberOfChallenges}} challenges of varying difficulty
+{juiceShopNumberOfChallenges} challenges of varying difficulty
 where you are supposed to exploit underlying security vulnerabilities.
 These vulnerabilities were intentionally planted in the application for
 exactly that purpose, but in a way that actually happens in "real-life"
@@ -98,7 +99,7 @@ The author's idea was to convert one of the (unofficial but popular)
 _JavaScript_ shield-logos into a *leaking juice box* because it had a
 quite matching shape for this shenanigans:
 
-image: introduction/JuiceShop_RetroLogo.png[Original JuiceShop logo]
+image::introduction/JuiceShop_RetroLogo.png[Original JuiceShop logo]
 
 In 2017 the logo received a facelift and a spin-off when the Juice Shop
 introduced its Capture-the-flag extension (which is discussed in its own

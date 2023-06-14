@@ -1,4 +1,5 @@
 = Codebase 101
+include::../_attributes.adoc[]
 
 Jumping head first into any foreign codebase can cause a little
 headache. This section is there to help you find your way through the
@@ -267,8 +268,6 @@ The following code snippet shows the `contact.component.html` view which
 associated styles in `contact.component.scss` - represents the entire
 _Contact Us_ screen.
 
-{% raw %}
-
 [,html]
 ----
 <div fxLayoutAlign="center">
@@ -327,8 +326,6 @@ _Contact Us_ screen.
   </mat-card>
 </div>
 ----
-
-{% endraw %}
 
 ℹ️ In the entire Juice Shop code base, inline templates are *never*
 used. Templates must *always* be described in separate `.html` files.
@@ -414,7 +411,7 @@ such as
 
 🚨 Integration tests for all routes can be found in the `test/api`
 folder alongside all other API endpoint tests, from where
-https://www.frisbyjs.com/[Frisby.js]/https://facebook.github.io/jest/[Jest]
+https://www.frisbyjs.com/[Frisby.js]/ https://facebook.github.io/jest/[Jest]
 assert the functionality of the entire backend on HTTP-request/response
 level.
 
@@ -791,7 +788,7 @@ module.exports = async () => {
 }
 ----
 
-For the default `Users` along with their `SecurityAnswers`, `Feedbacks`, `Addresses`, `Cards` and `Wallets` the data is hard-coded in a YAML file `data/static/users.yml`. For the static enumerations `SecurityQuestions` and `Deliveries` as well as Juice Shop's {{book.juiceShopNumberOfChallenges}} hacking `Challenges`, similar YAML files exist in `data/static`.
+For the default `Users` along with their `SecurityAnswers`, `Feedbacks`, `Addresses`, `Cards` and `Wallets` the data is hard-coded in a YAML file `data/static/users.yml`. For the static enumerations `SecurityQuestions` and `Deliveries` as well as Juice Shop's {juiceShopNumberOfChallenges} hacking `Challenges`, similar YAML files exist in `data/static`.
 
 As the contents of
 the `Products` and `Memories` table as well as the non-relational `reviews` collection
@@ -837,7 +834,7 @@ application. Whenever a new challenge is added, a corresponding
 end-to-end test needs to be included, to prove that it can be exploited.
 
 It is quite an impressive sight to see how
-{{book.juiceShopNumberOfChallenges}} hacking challenges are solved
+{juiceShopNumberOfChallenges} hacking challenges are solved
 without any human interaction in a few minutes. These tests are written and executed with
 https://cypress.io[Cypress] which and their results and stats are posted to
 on a https://dashboard.cypress.io/projects/3hrkhu/runs[public dashboard].

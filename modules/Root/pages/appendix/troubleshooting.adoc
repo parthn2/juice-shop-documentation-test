@@ -1,4 +1,6 @@
 = Troubleshooting
+include::../_attributes.adoc[]
+
 :pp: {plus}{plus}
 
 If (and only if) none of the
@@ -37,7 +39,7 @@ fixed in a straightforward fashion when they fail:
 | If you installed link:../part1/running.md#from-sources[from sources] re-run `npm install` and check for errors during that step. See also <<nodejs--npm,Node.js / NPM>> for some common culprits. In a link:../part1/running.md#from-pre-packaged-distribution[pre-packaged distribution] you should *never* see this error.
 
 | `+Detected Node version ... is not in the supported version range of ...+`
-| Install one of the officially supported Node.js versions {{book.nodeVersions}}. If you use a link:../part1/running.md#from-pre-packaged-distribution[pre-packaged distribution], make sure its version matches your installed Node.js version.
+| Install one of the officially supported Node.js versions {nodeVersions}. If you use a link:../part1/running.md#from-pre-packaged-distribution[pre-packaged distribution], make sure its version matches your installed Node.js version.
 
 | `+Detected OS ... is not in the list of supported platforms ...+`
 | Make sure you use a supported operating system. If you use a link:../part1/running.md#from-pre-packaged-distribution[pre-packaged distribution], make sure you downloaded the one for your OS.
@@ -125,7 +127,7 @@ then try again.
 
 * *If you are using Kali Linux to build and/or run OWASP Juice Shop, please try another Linux distro.* Kali has proven to be very flaky as a regular runtime environment.
 * If `npm install` fails on Ubuntu with the pre-installed Node.js please
-install the latest release of Node.js {{book.recommendedNodeVersion}}
+install the latest release of Node.js {recommendedNodeVersion}
 from scratch and try again.
 * If `npm install` on Linux runs into `WARN cannot run in wd` problems
 (e.g. during the frontend installation step) try running `npm install
