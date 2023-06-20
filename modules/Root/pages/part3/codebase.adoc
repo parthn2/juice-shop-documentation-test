@@ -1,5 +1,4 @@
 = Codebase 101
-include::../_attributes.adoc[]
 
 Jumping head first into any foreign codebase can cause a little
 headache. This section is there to help you find your way through the

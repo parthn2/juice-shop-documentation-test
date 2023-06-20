@@ -1,5 +1,4 @@
 = Troubleshooting
-include::../_attributes.adoc[]
 
 :pp: {plus}{plus}
 

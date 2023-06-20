@@ -1,5 +1,4 @@
 = Customization
-include::../_attributes.adoc[]
 
 One of the core usage scenarios for OWASP Juice Shop is in employee
 trainings in order to facilitate security awareness. With its not

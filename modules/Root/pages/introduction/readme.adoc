@@ -1,5 +1,4 @@
 = Introduction
-include::../_attributes.adoc[]
 
 :doctype: book
 

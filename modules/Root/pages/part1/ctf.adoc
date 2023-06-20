@@ -1,5 +1,4 @@
 = Hosting a CTF event
-include::../_attributes.adoc[]
 
 ____
 In computer security, Capture the Flag (CTF) is a computer security

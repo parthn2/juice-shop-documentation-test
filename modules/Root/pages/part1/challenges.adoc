@@ -1,5 +1,4 @@
 = Challenge tracking
-include::../_attributes.adoc[]
 
 == The Score Board
 

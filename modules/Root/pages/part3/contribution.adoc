@@ -1,5 +1,4 @@
 = Contribute to development
-include::../_attributes.adoc[]
 
 If you would like to contribute to OWASP Juice Shop but need some idea
 what task to address, the best place to look is in the GitHub issue

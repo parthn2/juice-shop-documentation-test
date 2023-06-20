@@ -1,5 +1,4 @@
 = Running OWASP Juice Shop
-include::../_attributes.adoc[]
 
 == System requirements
 
