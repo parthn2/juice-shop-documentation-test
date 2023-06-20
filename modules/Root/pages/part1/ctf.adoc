@@ -143,7 +143,7 @@ dependency to the score server_ either, as participants simply enter the
 flag code they see upon solving a challenge manually somewhere on the
 score server's user interface, typically via their browser:
 
-image::/part1/CTF_Infrastructure.png[CTF Infrastructure Example]
+image::part1/CTF_Infrastructure.png[CTF Infrastructure Example]
 
 == Setting up CTF score servers for Juice Shop
 

@@ -36,7 +36,7 @@ When visiting the OWASP Juice Shop you will begin on the landing page
 on the logo in the top left corner of the screen will always bring you
 back to this screen (or more precisely, to its alias `#/search`).
 
-image::/part1/all-products.png[All Products]
+image::part1/all-products.png[All Products]
 
 This is of course the "bread & butter" screen for any e-commerce site.
 When you click on the small "eye"-button next to the price of a product,
@@ -45,7 +45,7 @@ list of customer reviews for that product (if available). You can also
 enter a new (or edit an existing) product review in this dialog.
 Authenticated users can upvote reviews they like.
 
-image::/part1/product-details.png[Product Details]
+image::part1/product-details.png[Product Details]
 
 You can use the _Search..._ box in the navigation bar at the top of the
 screen to filter the table for specific products by their name and
@@ -53,7 +53,7 @@ description. Using the controls at the bottom of the table, you can
 navigate through the result list that exceeds the _Items per page_
 limit.
 
-image::/part1/search-results.png[Search Results]
+image::part1/search-results.png[Search Results]
 
 [discrete]
 === User login
@@ -65,7 +65,7 @@ credentials on the `#/login` page. There you can either log in with your
 existing credentials (if you are a returning customer) or with your
 Google account.
 
-image::/part1/login.png[Login]
+image::part1/login.png[Login]
 
 [discrete]
 === User registration
@@ -78,7 +78,7 @@ shopping! During registration, you also choose and answer a security
 question that will let you recover the account if you ever forget your
 password.
 
-image::/part1/user-registration.png[User Registration]
+image::part1/user-registration.png[User Registration]
 
 [discrete]
 === Forgot Password
@@ -86,7 +86,7 @@ image::/part1/user-registration.png[User Registration]
 By providing your email address, the answer to your security question
 and a new password, you can recover an otherwise inaccessible account.
 
-image::/part1/forgot-password.png[User Registration]
+image::part1/forgot-password.png[User Registration]
 
 [discrete]
 === Choosing products to purchase
@@ -102,7 +102,7 @@ purchase:
 in the shopping basket
 * remove products from the shopping basket with the "trashcan"-button
 
-image::/part1/your-basket.png[Your Basket]
+image::part1/your-basket.png[Your Basket]
 
 [discrete]
 === Checkout
@@ -142,7 +142,7 @@ user account.
 the user menu in the following sub-sections. It is recommended to
 explore the rest on your own before diving into any hacking exercises.
 
-image::/part1/user-menu.png[User Menu]
+image::part1/user-menu.png[User Menu]
 
 [discrete]
 ==== User Profile
@@ -154,7 +154,7 @@ of the shop's UI. It is fully functional nonetheless, as it allows you
 to upload a `JPG`-format picture of yourself (or link an existing
 Gravatar) and choose a username for your account.
 
-image::/part1/user-profile.png[User Profile]
+image::part1/user-profile.png[User Profile]
 
 [discrete]
 ==== My saved addresses
@@ -162,8 +162,8 @@ image::/part1/user-profile.png[User Profile]
 This page lists your saved addresses and provides you with the ability
 to edit or delete already saved addresses as well as add new ones.
 
-image:/part1/stored-address.png[Stored Address]
-image:/part1/add-address.png[Add Address]
+image::part1/stored-address.png[Stored Address]
+image::part1/add-address.png[Add Address]
 
 🚨 *Do not enter real address data here!*
 
@@ -173,7 +173,7 @@ image:/part1/add-address.png[Add Address]
 This page lists your saved cards and provides you with the ability to
 delete already saved cards or to add new ones.
 
-image::/part1/stored-card.png[Stored Card]
+image::part1/stored-card.png[Stored Card]
 
 🚨 *Do not enter real credit card data here!*
 
@@ -184,7 +184,7 @@ This page allows you to add money to your wallet and to check the
 existing balance. All the bonuses on your purchase are directly credited
 to your wallet.
 
-image::/part1/wallet.png[Wallet]
+image::part1/wallet.png[Wallet]
 
 [discrete]
 ==== Order History
@@ -192,7 +192,7 @@ image::/part1/wallet.png[Wallet]
 This page allows you to view the details of all your current and
 previous orders and the status of their delivery.
 
-image::/part1/order-history.png[Order History]
+image::part1/order-history.png[Order History]
 
 [discrete]
 ===== Privacy Policy
@@ -201,7 +201,7 @@ This page informs you about the policies regarding the collection, use
 and disclosure of personal data when you use the OWASP Juice Shop and
 the choices you have when it comes to your data.
 
-image::/part1/privacy-policy.png[Privacy Policy]
+image::part1/privacy-policy.png[Privacy Policy]
 
 [discrete]
 ===== Request Data Export
@@ -209,7 +209,7 @@ image::/part1/privacy-policy.png[Privacy Policy]
 This page allows you to obtain a copy of all your data saved in the
 Juice Shop.
 
-image::/part1/request-data-export.png[Request Data Export]
+image::part1/request-data-export.png[Request Data Export]
 
 [discrete]
 ===== Request Data Erasure
@@ -217,7 +217,7 @@ image::/part1/request-data-export.png[Request Data Export]
 This page allows you to request a complete erasure of your account and
 any associated data from the Juice Shop.
 
-image::/part1/data-erasure-request.png[Data Erasure Request]
+image::part1/data-erasure-request.png[Data Erasure Request]
 
 [discrete]
 ==== Change user password
@@ -228,7 +228,7 @@ Password_ button in the navigation bar. On the
 password. To prevent abuse you have of course to supply your current
 password to legitimate this change.
 
-image::/part1/change-password.png[Change Password]
+image::part1/change-password.png[Change Password]
 
 [discrete]
 ===== 2FA Configuration
@@ -236,14 +236,14 @@ image::/part1/change-password.png[Change Password]
 This page allows you to secure your account with an additional factor by
 providing you with a barcode to scan.
 
-image::/part1/2fa-configuration.png[2FA Configuration]
+image::part1/2fa-configuration.png[2FA Configuration]
 
 [discrete]
 ===== Last Login IP
 
 This page displays the IP from which your account was last logged in.
 
-image::/part1/last-login-ip.png[Last Login IP]
+image::part1/last-login-ip.png[Last Login IP]
 
 [discrete]
 ==== Request Recycling Box
@@ -253,12 +253,12 @@ you to the `#/recycle` page. This is a very innovative feature that
 allows eco-friendly customers to order pre-stamped boxes for returning
 fruit pressing leftovers to the Juice Shop.
 
-image::/part1/request-recycling-box.png[Request Recycling Box]
+image::part1/request-recycling-box.png[Request Recycling Box]
 
 For greater amounts of pomace the customer can alternatively order a
 truck to come by and pick it up at a chosen future date.
 
-image::/part1/recycling-pickup.png[Request Recycling Pickup]
+image::part1/recycling-pickup.png[Request Recycling Pickup]
 
 [discrete]
 ==== Order Tracking
@@ -266,12 +266,12 @@ image::/part1/recycling-pickup.png[Request Recycling Pickup]
 Equipped with an order number from your confirmation PDF, you can invoke
 the `#/track-order` functionality by clicking _Track Orders_.
 
-image::/part1/track-orders.png[Track Orders]
+image::part1/track-orders.png[Track Orders]
 
 After entering a valid order number, you will be shown the products from
 your order along with a delivery status and expected delivery date.
 
-image::/part1/track-orders-result.png[Track Orders Result]
+image::part1/track-orders-result.png[Track Orders Result]
 
 _Just as there was no "real" payment was happening, you will hopefully
 understand that there is no "real" order delivery happening - no matter
@@ -283,7 +283,7 @@ what the order tracking dialog suggested._
 The sidebar menu button left of the application logo reveals some more
 options to choose from.
 
-image::/part1/menu.png[Menu]
+image::part1/menu.png[Menu]
 
 [discrete]
 ==== Customer Feedback
@@ -296,7 +296,7 @@ very straightforward with a free text _Comment_ field and a _Rating_ on
 a 1-5 stars scale. To prevent abuse, you have to solve a simple
 mathematical problem before being allowed to submit your feedback.
 
-image::/part1/contact-us.png[Contact Us]
+image::part1/contact-us.png[Contact Us]
 
 [discrete]
 ==== Complain
@@ -306,7 +306,7 @@ you to the `#/complain` page where you can leave a free text _Message_
 and attach an _Invoice_ file in case you had some issues with a recent
 order at the Juice Shop.
 
-image::/part1/file-complaint.png[File Complaint]
+image::part1/file-complaint.png[File Complaint]
 
 [discrete]
 ==== Support Chat
@@ -315,7 +315,7 @@ In the _Support Chat_ you can talk to an (almost) AI-powered chat bot
 and get answers to questions like product prices, deluxe membership
 benefits and more.
 
-image::/part1/support-chat.png[Support Chat]
+image::part1/support-chat.png[Support Chat]
 
 [discrete]
 ==== About Us
@@ -327,7 +327,7 @@ of Use document. Additionally, the page displays a fancy illustrated
 slideshow of all <<customer-feedback,customer feedback>>. Beneath that
 you can find all important social media contact information of the shop.
 
-image::/part1/about-us.png[About Us]
+image::part1/about-us.png[About Us]
 
 [discrete]
 ==== Photo Wall
@@ -336,7 +336,7 @@ The OWASP Juice Shop also has an `#/photo-wall` page titled _Photo Wall_
 which allows its users to share their memories with other customers of
 the Juice Shop.
 
-image::/part1/photo-wall.png[Photo Wall]
+image::part1/photo-wall.png[Photo Wall]
 
 [discrete]
 ==== Deluxe Membership
@@ -345,7 +345,7 @@ The OWASP Juice Shop offers a deluxe membership to its customers which
 provides them with exclusive offers, free fast delivery and an
 unrestricted purchase of the items they like.
 
-image::/part1/deluxe-membership.png[Deluxe Membership]
+image::part1/deluxe-membership.png[Deluxe Membership]
 
 [discrete]
 === Language selection
@@ -355,7 +355,7 @@ languages you want the user interface to be displayed in. Languages
 marked with a "flask"-icon next to them offer only rudimentary or
 partial translation.
 
-image::/part1/language-selection.png[Language Selection]
+image::part1/language-selection.png[Language Selection]
 
 _If you want to know more about (or even help with) the localization of
 OWASP Juice Shop, please refer to the
