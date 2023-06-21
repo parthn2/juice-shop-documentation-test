@@ -85,7 +85,7 @@ Shop's user interface is available in different languages. One extra
 language is actually available that you will not find in the selection
 menu.
 
-image::/part3/languages.png[Language selection dropdown]
+image::part3/languages.png[Language selection dropdown]
 
 * First you should find out how the languages are technically changed in
 the user interface.

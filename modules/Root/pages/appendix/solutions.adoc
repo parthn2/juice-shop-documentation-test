@@ -41,13 +41,13 @@ into the _Search..._ field and hit Enter
 
 . Follow the link to titled _Check out our boring terms of use if you
 are interested in such lame stuff_
-(http://localhost:3000/ftp/legal.md) on the _About Us_ page.
+(http://localhost:3000/ftp/legal.adoc) on the _About Us_ page.
 . Successfully attempt to browse the directory by changing the URL into
 http://localhost:3000/ftp
 +
 image::appendix/ftp_directory.png[FTP directory browser]
 
-. Open http://localhost:3000/ftp/acquisitions.md to solve the
+. Open http://localhost:3000/ftp/acquisitions.adoc to solve the
 challenge.
 
 === Provoke an error that is neither very gracefully nor consistently handled
@@ -82,7 +82,7 @@ metrics of the Juice Shop and solve this challenge
 
 === Close multiple "Challenge solved"-notifications in one go
 
-. Read the link:../part1/challenges.md#success-notifications[Success Notifications] section
+. Read the link:../part1/challenges.adoc#success-notifications[Success Notifications] section
 . It will explain that `Shift`-clicking the _X_-button on any "Challenge solved"-notification will close all open notifications of this kind
 . Solve any other challenge (or multiple) and then `Shift`-click the _X_-button on it to solve this challenge
 
@@ -165,7 +165,7 @@ best use this offer. In Chrome this can be done with the "{}"-button.
 . Search for `score` and iterate through each finding to come across
 one looking like a route mapping section:
 +
-image::/appendix/score-board_route.png[Route Mapping the the Score Board]
+image::appendix/score-board_route.png[Route Mapping the the Score Board]
 
 . Navigate to http://localhost:3000/#/score-board to solve the
 challenge.
@@ -867,7 +867,7 @@ pet cat.
 image::appendix/zaya_window.jpg[Zaya at window]
 
 Retrieving another photo of his cat is the subject of the
-link:../part2/improper-input-validation.md#retrieve-the-photo-of-bjoerns-cat-in-melee-combat-mode[Retrieve the photo of Bjoern's cat in "melee combat-mode"]
+link:../part2/improper-input-validation.adoc#retrieve-the-photo-of-bjoerns-cat-in-melee-combat-mode[Retrieve the photo of Bjoern's cat in "melee combat-mode"]
 challenge. The corresponding image caption "😼 #zatschi
 #whoneedsfourlegs" also leaks the nickname "Zatschi" of the pet - which
 is cute, but (intentionally) not very helpful to find out her real name,
@@ -1036,14 +1036,14 @@ any related challenges which will bring the exposed `/ftp` folder to
 your attention.
 . Visit http://localhost:3000/ftp and notice the file
 `incident-support.kdbx` which is needed for
-link:../part2/security-misconfiguration.md#log-in-with-the-support-teams-original-user-credentials[Log in with the support team's original user credentials]
+link:../part2/security-misconfiguration.adoc#log-in-with-the-support-teams-original-user-credentials[Log in with the support team's original user credentials]
 and indicates that some support team is performing its duties from
 the public Internet and possibly with VPN access.
 . Guess luckily or run a brute force attack with e.g.
 https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/bruteforce[OWASP ZAPs DirBuster plugin]
 for a possibly exposed directory containing the log files.
 . Following
-link:../part2/sensitive-data-exposure.md#gain-access-to-any-access-log-file-of-the-server[the hint to drill down deeper than one level],
+link:../part2/sensitive-data-exposure.adoc#gain-access-to-any-access-log-file-of-the-server[the hint to drill down deeper than one level],
 you will at some point end up with
 http://localhost:3000/support/logs.
 . Inside you will find at least one `access.log` of the current day.
@@ -1210,7 +1210,7 @@ via http://localhost:3000/#/contact to solve this challenge
 
 . Use the _Poison Null Byte_ attack described in
 <<access-a-developers-forgotten-backup-file,Access a developer's forgotten backup file>>...
-. ...to download http://localhost:3000/ftp/eastere.gg%2500.md
+. ...to download http://localhost:3000/ftp/eastere.gg%2500.adoc
 
 === Apply some advanced cryptanalysis to find the real easter egg
 
@@ -1278,12 +1278,12 @@ challenge solved.
 fail complaining about an illegal file type.
 . Using a _Poison Null Byte_ (`%00`) the filter can be tricked, but
 only with a twist:
- ** Accessing http://localhost:3000/ftp/package.json.bak%00.md will
+ ** Accessing http://localhost:3000/ftp/package.json.bak%00.adoc will
 surprisingly *not* succeed...
  ** ...because the `%` character needs to be URL-encoded (into `%25`)
 as well in order to work its magic later during the file system
 access.
-. http://localhost:3000/ftp/package.json.bak%2500.md will ultimately
+. http://localhost:3000/ftp/package.json.bak%2500.adoc will ultimately
 solve the challenge.
 
 === Access a salesman's forgotten backup file
@@ -1291,7 +1291,7 @@ solve the challenge.
 . Use the _Poison Null Byte_ attack described in
 <<access-a-developers-forgotten-backup-file,Access a developer's forgotten backup file>>...
 . ...to download
-http://localhost:3000/ftp/coupons_2013.md.bak%2500.md
+http://localhost:3000/ftp/coupons_2013.adoc.bak%2500.adoc
 
 === Log in with Bjoern's Gmail account
 
@@ -1350,7 +1350,7 @@ emails!
 . Use the _Poison Null Byte_ attack described in
 <<access-a-developers-forgotten-backup-file,Access a developer's forgotten backup file>>...
 . ...to download
-http://localhost:3000/ftp/suspicious_errors.yml%2500.md
+http://localhost:3000/ftp/suspicious_errors.yml%2500.adoc
 
 === Let the server sleep for some time
 
@@ -1591,7 +1591,7 @@ like https://retirejs.github.io/[Retire.js] or a CLI tool like
 https://docs.npmjs.com/cli/audit/[npm-audit] that comes with Node.js, makes it rather easy to identify it.
 
 . Solve
-link:../part2/sensitive-data-exposure.md#access-a-developers-forgotten-backup-file[Access a developer's forgotten backup file]
+link:../part2/sensitive-data-exposure.adoc#access-a-developers-forgotten-backup-file[Access a developer's forgotten backup file]
 . Checking the dependencies in `package.json.bak` for known
 vulnerabilities online will give you a match (at least) for
  ** `sanitize-html`: Sanitization of HTML strings is not applied
@@ -2446,18 +2446,18 @@ image::appendix/tweet_zip-complaints.png[Tweet advertising ZIP uploads in "File 
 https://res.cloudinary.com/snyk/image/upload/v1528192501/zip-slip-vulnerability/technical-whitepaper.pdf[Zip Slip] which
 exploits directory traversal filenames in file archives.
 . As the Legal Information file you need to override lives in
-http://localhost:3000/ftp/legal.md and uploading files via _File
+http://localhost:3000/ftp/legal.adoc and uploading files via _File
 Complaint_ does not give any feedback where they are stored, an
 iterative directory traversal approach is recommended.
-. Prepare a ZIP file (on Linux) with `zip exploit.zip ../ftp/legal.md`.
+. Prepare a ZIP file (on Linux) with `zip exploit.zip ../ftp/legal.adoc`.
 . Log in as any user at http://localhost:3000/#/login.
 . Click _Contact Us_ and _Complain?_ to get to the _File Complaint_
 screen at http://localhost:3000/#/complain.
 . Type in any message and attach your ZIP file, then click _Submit_.
 . The challenge will _not_ be solved. Repeat steps 5-7 but with `zip
-exploit.zip ../../ftp/legal.md` as the payload.
+exploit.zip ../../ftp/legal.adoc` as the payload.
 . The challenge will be marked as solved! When you visit
-http://localhost:3000/ftp/legal.md you will see your overwritten
+http://localhost:3000/ftp/legal.adoc you will see your overwritten
 Legal Information!
 
 ____
@@ -2483,7 +2483,7 @@ totally different attack styles.
 
 . Solve challenge
 <<access-a-salesmans-forgotten-backup-file,Access a salesman's forgotten backup file>>
-to get the `coupons_2013.md.bak` file with old coupon codes which you
+to get the `coupons_2013.adoc.bak` file with old coupon codes which you
 find listed below.
 . There is an obvious pattern in the last characters, as the first
 eleven codes end with `gC7sn` and the last with `gC7ss`.
@@ -2544,7 +2544,7 @@ https://twitter.com/owasp_juiceshop for a valid coupon code. At the
 time of this writing - January 2017 - the broadcasted coupon was
 `n<Mibh.u)v` promising a 50% discount.
 +
-image::/appendix/coupon_code-january2017.png[Coupon Code for January 2017 on @owasp_juiceshop]
+image::appendix/coupon_code-january2017.png[Coupon Code for January 2017 on @owasp_juiceshop]
 
 . Decrypting this code with `z85 -d "n<Mibh.u)v"` returns `JAN17-50`
 . Encrypt a code valid for the current month with 80% or more discount,

@@ -357,7 +357,7 @@ image::part3/ci-workflow.png[CI/CD Pipeline workflow on GitHub]
 
 For tag-builds (i.e. versions to be released) another workflow is
 triggered which packages the
-link:../part1/running.md#from-pre-packaged-distribution[release-artifacts for Linux, MacOS and Windows for each supported Node.js version]
+link:../part1/running.adoc#from-pre-packaged-distribution[release-artifacts for Linux, MacOS and Windows for each supported Node.js version]
 and attach these to the release page on GitHub and also published Docker
 images for the released version.
 
@@ -385,7 +385,7 @@ and not be kept busy by handling accidental or intentional spammers.
 Submitting obviously non-accidental *spam*
 PRs - especially during events like Hacktoberfest or Google Summer of Code - can lead to a
 permanent ban right away. The same applies for PRs with obviously malicious or abusive intent as
-detailed in the Juice Shop's https://github.com/juice-shop/juice-shop/blob/master/CODE_OF_CONDUCT.md[Code of Conduct].
+detailed in the Juice Shop's https://github.com/juice-shop/juice-shop/blob/master/CODE_OF_CONDUCT.adoc[Code of Conduct].
 
 ==== Redemption from banishment
 

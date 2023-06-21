@@ -88,7 +88,7 @@ just copy it from the `botDefaultTrainingData.json` file.
 the current month. It should be used alongside at least 10 other
 regular ``response``s, so that the user will not immediately get the
 coupon when asking for it. This makes the challenge
-link:../part2/miscellaneous.md#receive-a-coupon-code-from-the-support-chatbot[Receive a coupon code from the support chatbot]
+link:../part2/miscellaneous.adoc#receive-a-coupon-code-from-the-support-chatbot[Receive a coupon code from the support chatbot]
 more interesting. See the
 <<training-data-example,Training data example>> on how to set this up
 optimally.
@@ -114,7 +114,7 @@ singular entry in `utterances` and is only used for testing purposes.
 If you write your own training data file from scratch, you need exactly
 one `intent` for each of these three ``handler``s. If you do not have
 these defined, Juice Shop will tell you during the
-link:troubleshooting.md#start-up-validations[Start-up validations]. To
+link:troubleshooting.adoc#start-up-validations[Start-up validations]. To
 avoid any such issues, it is recommended to just start with a copy of
 the `botDefaultTrainingData.json` file when definiing your own chatbot
 conversations.

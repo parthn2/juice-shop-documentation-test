@@ -128,7 +128,7 @@ includes a link to a printable PDF confirmation for your order and as
 well as a tracking link.
 
 image:part1/order-completion.png[Order completion screen]
-image:/part1/order-confirmation.png[Order confirmation PDF]
+image:part1/order-confirmation.png[Order confirmation PDF]
 
 [discrete]
 === User Menu

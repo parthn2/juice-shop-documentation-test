@@ -8,7 +8,7 @@ application process itself, and they are based on
 
 * a 30-day average
 process CPU and RAM usage of the official public demo instance running `v14.0.1` of Juice Shop
-* a training with ~30 participants on a link:../appendix/trainers.md#hosting-individual-instances-for-multiple-users[MultiJuicer] cluster hosted on OpenShift with Juice Shop `v14.0.1`
+* a training with ~30 participants on a link:../appendix/trainers.adoc#hosting-individual-instances-for-multiple-users[MultiJuicer] cluster hosted on OpenShift with Juice Shop `v14.0.1`
 
 Please note that any additional resources needed by your environment (e.g. Docker or Vagrant) come on top.
 
@@ -207,7 +207,7 @@ image::part1/deploy-to-heroku.svg["Deploy to Heroku" button]
 
 . Click the
 _Deploy to Heroku_ button in the
-https://github.com/juice-shop/juice-shop#heroku[_Setup_ section of the `README.md` on GitHub]
+https://github.com/juice-shop/juice-shop#heroku[_Setup_ section of the `README.adoc` on GitHub]
 
 If you have forked the Juice Shop repository on GitHub, the _Deploy to
 Heroku_ button will deploy your forked version of the application. To
@@ -302,5 +302,5 @@ _pair-hacking_-style.
 
 If you want to centrally host Juice Shop instances for multiple users
 you find more information in section
-link:../appendix/trainers.md#hosting-individual-instances-for-multiple-users[Hosting individual instances for multiple users]
+link:../appendix/trainers.adoc#hosting-individual-instances-for-multiple-users[Hosting individual instances for multiple users]
 of the trainer's guide.
