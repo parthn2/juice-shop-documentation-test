@@ -31,7 +31,7 @@ or folders:
 These are equally available when cloning the source code repo, running
 the official Docker image or unpacking an official pre-packaged archive.
 
-== `vuln-code-snippet` marker comments
+== `vuln-code-snippet` marker comments [[vuln-code-snippet-marker-comments]]
 
 All marker comments relevant for the code snippet processing start with
 the `vuln-code-snippet` prefix followed by the type of marker, often

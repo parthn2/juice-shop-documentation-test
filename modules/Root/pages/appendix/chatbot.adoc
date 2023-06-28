@@ -88,7 +88,7 @@ just copy it from the `botDefaultTrainingData.json` file.
 the current month. It should be used alongside at least 10 other
 regular ``response``s, so that the user will not immediately get the
 coupon when asking for it. This makes the challenge
-link:../part2/miscellaneous.adoc#receive-a-coupon-code-from-the-support-chatbot[Receive a coupon code from the support chatbot]
+xref:../part2/miscellaneous.adoc#_receive_a_coupon_code_from_the_support_chatbot[Receive a coupon code from the support chatbot]
 more interesting. See the
 <<training-data-example,Training data example>> on how to set this up
 optimally.
@@ -119,7 +119,7 @@ avoid any such issues, it is recommended to just start with a copy of
 the `botDefaultTrainingData.json` file when definiing your own chatbot
 conversations.
 
-== Training data example
+== Training data example [[training-data-example]]
 
 [,json]
 ----

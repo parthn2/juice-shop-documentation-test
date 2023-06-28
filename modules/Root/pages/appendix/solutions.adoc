@@ -2433,7 +2433,7 @@ This vulnerability arises when ExpressJS is using Handlebars as a template engin
 
 == ⭐⭐⭐⭐⭐⭐ Challenges
 
-=== Overwrite the Legal Information file
+=== Overwrite the Legal Information file [[overwrite-the-legal-information-file]]
 
 . Combing through the updates of the
 https://twitter.com/owasp_juiceshop[@owasp_juiceshop] Twitter

@@ -101,7 +101,7 @@ still fails to start, please check the
 <<common-support-issues,Common support issues>> for possible hints to
 solve your issue.
 
-== Common support issues
+== Common support issues [[common-support-issues]]
 
 The following issues have been seen (and solved/mitigated) more than
 once and can hopefully help you to narrow down a solution for your

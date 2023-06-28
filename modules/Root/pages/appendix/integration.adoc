@@ -5,7 +5,7 @@ These allow you to easily integrate Juice Shop tutorials, hints and
 solutions into your own security guides, knowledge bases, testing labs
 etc.
 
-== Challenges API
+== Challenges API [[challenges-api]]
 
 The endpoint `/api/Challenges` on your local Juice Shop instance (i.e.
 http://localhost:3000/api/Challenges) returns information on the
