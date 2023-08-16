@@ -1,0 +1,21 @@
+site:
+  title: Pwning OWASP Juice Shop
+  url: https://juice-shop.herokuapp.com
+content:
+  sources:
+  - url: https://github.com/parthn2/pwning-juice-shop.git
+    branches: antora-master
+    start_path: docs
+  - url: https://gitlab.eclipse.org/eclipse/asciidoc-lang/asciidoc-lang.git
+    branches: main
+    start_path: docs
+ui:
+  bundle:
+    url: /Users/parthnanda/Desktop/Gsoc/JuiceShop-UI-antora/build/ui-bundle.zip
+    snapshot: true
+output:
+  dir: ./build
+
+antora:
+  extensions:
+  - '@antora/lunr-extension'
